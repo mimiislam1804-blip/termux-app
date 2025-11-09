@@ -1,0 +1,11 @@
+# حدّث الحزم
+pkg update -y && pkg upgrade -y
+
+# ثبت بايثون وأدوات تحرير (nano) وgit
+pkg install python git nano -y
+
+# (اختياري لكن مفيد) ثبت curl وwget وtmux
+pkg install curl wget tmux -y
+
+# حدّث pip
+pip install --upgrade pip
